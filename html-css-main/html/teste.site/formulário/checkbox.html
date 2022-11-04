@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escolha</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <fieldset>
+            <legend>cor</legend>
+            <label for="icor">Escolha:</label> 
+            <input type="color" name="cor" id="icor">
+        </fieldset>
+
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="isxmas"> <label for="isxmas">Masculino</label>
+            <input type="radio" name="sexo" id="isxfem"> <label for="isxfem">Feminino</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Esportes Favoritos</legend>
+            <input type="checkbox" name="fut" id="ifut"><label for="ifut"> Futebol</label>
+            <input type="checkbox" name="bas" id="ibas"> <label for="ibas">Basquete</label>
+            <input type="checkbox" name="vol" id="ivol"> <label for="ivol">Vôlei</label>
+            <input type="checkbox" name="cor" id="icor"> <label for="icor">Corrida</label>
+            <input type="checkbox" name="lut" id="ilut"> <label for="ilut">Luta</label>
+            <input type="checkbox" name="nat" id="inat"> <label for="inat">Natação</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>dados pessoais</legend>
+            <label for="iano">Em que ano você nasceu?</label>
+            <input type="number" name="ano" id="iano" min="1900" max="2022" value="2000"
+            oninput="calcIdade()">
+
+            <label for="iidade">Sua idade é</label>
+            <output id="iidade">0</output>
+
+            <script>
+                function calcIdade() {
+                    let atual = new Date().getFullYear()
+                    iidade.innerHTML = Number(atual) - Number(iano.value)
+                }
+            
+            </script>
+        </fieldset>
+        
+
+
+        <fieldset>
+            <legend>foto de Perfil</legend>
+            <label for="ifoto">Envie sua foto:</label>
+            <input type="file" name="foto" id="ifoto">
+        </fieldset>
+
+        <fieldset>
+            <legend>Nível de satisfação</legend>
+            <label for="inivel">Dê a sua nota:</label>
+            <input type="range" name="nivel" id="inivel" min="0" max="5" 
+            oninput="ival.innerHTML = Number(inivel.value)">
+            <output id="ival">4</output>
+        </fieldset>
+        
+
+
+
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </p>
+    </form>
+</body>
+</html>

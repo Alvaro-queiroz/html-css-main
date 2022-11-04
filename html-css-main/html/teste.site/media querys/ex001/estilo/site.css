@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+/*Definições para site*/
+*{
+    margin:0px;
+    padding:0px;
+}
+
+html{
+    background-color: lightsalmon;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+   
+}
+header > h1{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+header{
+    
+    padding-bottom: 0px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-image: linear-gradient(lightcoral 90%, lightsalmon) ;
+}
+span#burguer{
+    display: block;
+    background-color: rgb(139, 63, 86);
+    padding: 10px;
+}
+
+span#burguer:hover{
+    
+    background-color: lightcoral;
+    }
+menu{
+    display: none;
+}
+menu > ul{
+    list-style-type: none;
+    padding: 10px;
+}
+menu > ul > li > a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background-color: rgb(139, 63, 86);
+    border: 1px solid lightcoral;
+    color:white;
+}
+menu > ul > li > a:hover{
+    background-color: lightcoral;
+    color: white;
+}
+
+main{
+    margin: auto;
+    margin-top: 10px;
+    width: 90vw;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    line-height: 1.5em;
+    
+}
+article > h2{ 
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color:rgb(139, 63, 86)}
+    
+article > p{
+    text-indent: 15px;
+    margin-bottom: 15px;
+   
+}
+
+footer{
+    background-color: lightcoral;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}

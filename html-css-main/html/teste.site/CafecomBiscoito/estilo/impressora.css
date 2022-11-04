@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+div.video{
+    display: none;
+}
+article.anime > aside{
+    display: none;
+}
+header{
+    display: none;
+}

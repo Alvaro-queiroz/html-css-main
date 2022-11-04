@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:'Título' ;
+    src: url("../HTMLs/fonts/Pacifico/Pacifico-Regular.ttf");
+}
+:root{
+--cor: #f8f2fd;
+--cor1:#C1BFB5;
+--cor2:#c56211;
+--cor3:#883606;
+--cor4:#5e2a00;
+--cor5:#291301;
+
+--fonte-padrão:Arial, Helvetica, sans-serif;
+--fonte-titulo: 'Título';
+}
+
+*{ 
+    margin: 0px;
+    padding:0px;  
+}
+
+h3{ 
+    background-image:linear-gradient(90deg,var(--cor3)40%,var(--cor));
+    padding: 4px;
+    color: var(--cor);
+    border-radius: 5px;
+}
+
+
+img{
+    max-width:95%;
+    display:block;
+    margin:auto;
+    transition-duration: 1s;
+}
+
+div.video{
+    background-color:var(--cor3);
+    margin: 0px -20px 30px -20px  ;
+    padding: 20px
+
+}
+Body{font: normal normal 16px Arial;
+    background-color:var(--cor1);
+    margin: 0px;
+}
+
+
+header{ 
+    color:var(--cor2);
+    text-shadow:1px 1px 3px black;
+    background-image:linear-gradient(0deg,var(--cor5)65%,var(--cor4)) ;
+    margin: auto;
+}
+
+header > h1{
+    font-family:var(--fonte-titulo) ;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+header > h2{ 
+    text-align: center;
+    font: normal italic 1.2em arial;
+    margin: auto;
+    padding: 10px;
+    color: white;
+}
+
+header > img{
+    width:80px;
+    margin:auto;
+}
+
+nav{
+    font-weight: 400;
+    background-color: var(--cor5);
+    padding: 10px;
+    transition-duration:0.5s;
+}
+    
+nav > a{
+    color:#ff9a47;
+    text-decoration:none;
+    text-shadow:2px 2px 3px var(--cor5);
+    padding: 10px;
+
+}
+    
+
+nav > a:hover{ 
+    color: var(--cor);
+    background-color: var(--cor2);
+    border-radius: 3px;
+}
+
+main{
+    background-color: white;
+    padding: 10px;
+    min-width: 260px;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 3px 1px 4px var(--cor0);  
+}
+
+
+
+article{
+    background-color:var(--cor);
+    padding: 10px;
+}
+article > p{
+    margin: 15px 0px;
+    font-size: 15px;
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 1.8em;
+}
+
+article > aside{ 
+    color: var(--cor2);
+    font-size: 13px;
+    font-style: italic;
+}
+
+footer{
+    color: white;
+    background-color:var(--cor5);
+    text-align: center;
+    padding: 4px;
+    margin: 0px;
+}
+
+footer > p{
+    margin: 0px
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste 2</title>
+</head>
+<body>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <h1>Faça o seu cadastro</h1>
+
+        <p>
+            <label for="iemail">E-mail:</label>
+            <input type="email" name="email" id="iemail" 
+            autocapitalize="email" required
+            placeholder="example@example.">
+        </p>
+        
+        <p>
+            <label for="itel">Telefone</label>
+            <input type="tel" name="tel" id="itel"
+            autocomplete="tel"
+            required
+            pattern="^\(\d{2}\)\d{4,5}-\d{4}$"
+            placeholder="(xx)xxxxx-xxxx">
+
+            
+        </p>
+<!-- Estudar mais sobre regEx-->
+
+        <p>
+            <label for="iusu">Usuário:</label>
+            <input type="text" name="usu" id="iusu" 
+            placeholder="Nome de usuário"
+            autocomplete="username"
+            required 
+            minlength="5"
+            maxlength="15" 
+            size="12">
+        </p>
+
+        <p>
+            <label for="isen">Senha:</label>
+            <input type="password" name="sen" id="isen"
+            placeholder="Min 8 caracteres"
+            autocomplete="current-password"
+            required 
+            minlength="8" 
+            maxlength="20"
+            size="12">
+        </p>
+
+        <p>
+            <label for="iest">Estado</label>
+            <select name="estado" id="iest">
+                <option value="" selected>--- Escolha ---</option>
+                <optgroup label="Sudeste">
+                    <option value="MG">Minas Gerais</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                </optgroup>
+
+                <optgroup label="Nordeste">
+                    <option value="MA">Maranhão</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                </optgroup>
+            </select>
+        </p>
+
+        <p>
+            <label for="iprof">Profissão</label>
+            <input type="text" name="prof" id="iprof" list="istprof">
+            <datalist id="istprof">
+                <option value="ADM">administrador</option>
+                <option value="PROF">Professor</option>
+                <option value="DEV">Desenvolvedor</option>
+                <option value="CONT">Contabilista</option>
+            </datalist>
+        </p>
+
+        <p>
+            <label for="imsg">Mensagem:</label> <br>
+            <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+
+        </p>
+
+        <p>
+            <input type="submit" value="Entrar">
+            <input type="reset" value="limpar">
+        </p>
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/Menu.css">
+    <title>Iframe 1</title>
+    <style>
+        *{
+        margin: 0px;
+        padding: 0px;
+        }
+
+
+
+        body{font:normal normal 16px Arial;
+            background-color: chocolate;
+            margin:0px;
+            
+            
+        }
+        div.site{
+            box-shadow:inset 2px 2px 15px rgba(0, 0, 0, 0.596);
+            border-radius: 10px;
+            background-color: chocolate;
+            margin: 1%;
+            padding: 2%;
+            padding-bottom: 76%;
+            position: relative;
+            
+        }
+
+        div.site > iframe{
+            
+            border-radius: 10px;
+            position: absolute;
+            height:95%;
+            width: 96%;
+        }
+        iframe{
+            
+            background-color: white;
+            box-shadow: inset 2px 2px 13px black;
+        }
+        iframe > 
+
+        main{
+            padding: 10px;
+            background-color:white;
+            margin: auto;
+            min-width: 260px;
+            max-width: 700px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border-radius: 20px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.678);
+        }
+
+        p{ 
+            text-align: justify;
+            padding: 10px;
+        }
+    
+        footer, header{
+            text-align: center;
+            font-weight: bold;
+            color: white;
+            background-color: brown;
+            margin:auto;
+            padding: 4px;
+        }
+        header{ padding: 20px;}
+
+    </style>
+</head>
+<body>
+    <header>
+        <head>
+            <h1>Página do Iframe</h1>
+        </head>
+    </header>
+
+    <main>
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam minus aut, eveniet sint explicabo possimus cupiditate vero, illum excepturi rem iusto laboriosam magnam dignissimos deserunt soluta, ipsam dicta natus voluptates.<br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, deleniti eius. Nostrum eos vero eaque placeat libero voluptatem odit, reiciendis ab nemo quas nobis repellendus? Quae nemo consequuntur asperiores possimus.
+        <p>
+            <a href="https://alvaro-queiroz.github.io/html-css/html/teste.site/teste-1.html" target="frame"> Site 1</a><br>
+            <a href="https://alvaro-queiroz.github.io/html-css/html/teste.site/teste-2.html" target="frame"> Site 2</a>
+        </p>
+
+    </p>
+
+        <div class="site">
+    <iframe 
+    srcdoc="<h1>Escolha uma das opções acima </h1> 
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim esse similique, ratione cupiditate odio exercitationem placeat. Voluptatibus saepe, architecto ea nostrum quidem accusantium autem, quam, consequuntur alias quod asperiores labore.
+    </p>
+    <img src='mídia/cafe-com-biscoito/mídia/imagens/Cafe-com-biscoito.png'>
+    "
+    frameborder="0" 
+    name="frame" 
+></iframe>
+        </div>
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam minus aut, eveniet sint explicabo possimus cupiditate vero, illum excepturi rem iusto laboriosam magnam dignissimos deserunt soluta, ipsam dicta natus voluptates.<br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, deleniti eius. Nostrum eos vero eaque placeat libero voluptatem odit, reiciendis ab nemo quas nobis repellendus? Quae nemo consequuntur asperiores possimus.
+    </p>
+    </main>
+    <footer>Desenvolvido por Alvaro Queiroz </footer>
+</body>
+</html>

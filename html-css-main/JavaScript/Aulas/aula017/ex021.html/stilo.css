@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+body{
+    font: normal normal 16px Arial;
+   
+    background-color:rgb(77, 201, 195);
+  
+}
+
+header{
+    text-align: center;
+    color: white;
+}
+
+section{
+    color:black;
+    background-color: rgb(233, 237, 240);
+    border-radius: 10px;
+    padding: 12px;
+    width: 500px;
+    margin:auto;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.493)
+}
+select#ban{
+    width: 200px;
+}
+select{
+    margin-top: 10px;
+
+}
+
+footer{
+    text-align: center;
+    color: white;
+    padding: 10px;
+
+}

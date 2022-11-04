@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de click</title>
+    <style>
+        div#ca{
+            font:bold normal 16pt Arial;
+            color: aliceblue;
+           
+            text-align: center;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            background-color: rgb(7, 114, 114);
+        }
+    </style>
+</head>
+<body>
+
+    <div id="ca">
+     Clique aqui
+    </div>
+
+
+    <script>
+        var caixa = window.document.getElementById('ca')
+        caixa.addEventListener('click', clicar)
+        caixa.addEventListener('mouseenter', entrar)
+        caixa.addEventListener('mouseout', sair)
+
+
+        function clicar(){
+        caixa.innerText = 'Clicou'
+        caixa.style.background = 'blue'
+        } 
+        function entrar() {
+            caixa.innerText = 'Entrou'
+            caixa.style.background = 'red'
+        }
+
+        function sair(){
+        caixa.innerText ='Saiu'
+        caixa.style.background = 'green' 
+        }
+
+    </script>
+
+</body>
+
+</html>

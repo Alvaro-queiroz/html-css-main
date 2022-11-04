@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+body{font: normal normal 16px Arial}
+ul{font-weight: bold; color: blue;}
+    </style>
+    <title>Links</title>
+</head>
+<body>
+    <h1>Inserir Links em seu Site</h1>
+    <h2>Links externos</h2>
+        <p>links são utilizados para te direcionar a outra página e alavancar a estadia do usuário ao seu site<br>
+        Para inserir o link na sua página, você deve inserir a tag: 
+        <p style="font-weight:bold; color:blueviolet;"> &lt;a href="Url do site/página do seu site"&gt; nome do link&lt;/a&gt;
+        <p>para abrir o link em uma nova guia utilizar a tag "target="_blank" e rel="exteral"</p>
+    <h2>Links internos</h2>
+    <p>Para inserir links internos você precisa ter outra página criada no seu servidor.<br>
+        Após isso é só inserir o  caminho da sua segunda página na tag <p style="font-weight:bold; color:blueviolet; "> &lt;a href="caminho da próxima página do seu servidor" &gt; nome do link&lt;/a&gt;</p>
+        <ul>
+           <li> rel="next": para página seguinte e <li>rel="prev": para página anterior
+        </ul>
+    <h2>Links para download</h2>
+    <p>Links para download são feitos usando a mesma tag anterior só que com o acréscimo DOS arquivos do seu servidor e utilizando as configurações:
+        <ul style="font-weight:normal; color:black;">
+            <li>download
+            <li> type="application/formato"
+        </ul>
+      </p>
+      <h3>Exemplo:</h3>
+        <ul>
+            <li><a href="../../../../../Livros/O peso do pássaro morto -  Aline Bei.pdf" download="O peso do pássaro morto.pdf" target="application/pdf">link para download em PDF</a>
+            <li><a href="../../../HTML-CSS/HTMLs/mídia/RQ normal.zip" download="RQ normal.zip" target="application/zip">link para download em ZIP</a></li>
+            <li><a href="#">link para download</a></li>
+        </ul>
+
+        
+</body>
+</html>

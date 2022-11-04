@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+
+@media print {
+    
+
+html{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+menu{
+    display: none;
+}
+
+article::after{
+    content:"Esse Site foi ecrito e programado por Alvaro queiroz" ;
+}
+}
+

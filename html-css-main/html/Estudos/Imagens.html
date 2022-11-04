@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= initial-scale=1.0">
+    <title>Imagens</title>
+    <link rel="shortcut icon" href="../mídia/cafe-com-biscoito/mídia/imagens/icone-guia.ico" type="image/x-icon">
+    <style>
+    body{
+        font: normal normal 16px Arial}
+        h1{font-family: Verdana;}
+        
+        h2{color: brown;}
+    </style>
+</head>
+<body>
+    <h1>Caregando imagens no seu site</h1>
+        <h2>Imagens da sua pasta de arquivos</h2>
+            <p>Voce vai localizar a imagem desejada em seus arquivos de imagem e após isso usar a tag &lt;img&gt;</p>
+
+        <h4>Exemplo:</h4>
+        <p style="color:blueviolet">
+            &lt;img src="local do arquivo/nome do arquivo" alt="nome do arquivo"&gt;</p>
+    
+    <img src="../mídia/cafe-com-biscoito/mídia/imagens/Cafe-com-biscoito.png" alt="logo Café com biscoito">
+
+    <p style="color: blue">&lt;img src="../mídia/cafe-com-biscoito/mídia/imagens/Cafe-com-biscoito.png" alt="logo Café com biscoito"&gt;</p>
+
+        <h2>Imagens Externas</h2>
+            <p>Para pegar uma imagem de outro Site voce pode utilizar o endereço da imagem utilizando o botão direito do mouse e colar o link na tag &lt;img&gt;</p>
+        <h3>Exemplo:</h3>
+            <p style="color:blueviolet">&lt;img src="Url da imagem no site" alt="nome do arquivo"&gt;</p>
+            <img src="https://tpaempreendimentos.com.br/blog/wp-content/uploads/2018/11/cafedopateo-xicara.jpg" alt="imagem de café na mesa" height="200px">
+            <p style="color: blue">&lt;img src="https://tpaempreendimentos.com.br/blog/wp-content/uploads/2018/11/cafedopateo-xicara.jpg" alt="imagem de café na mesa" height="200px"&gt;</p>
+
+        <h2> ícones da Página </h2>
+            <p>Para colocar um ícone de favorritos na sua página voce irá utilizara  tag &lt;link:favicon&gt;<br>
+            </p>
+            <p style="font-style:italic ; color: brown;">Pesquisar o Site favicon para transformar imagens PNG em formato de Ícone ou criar/desenhar o seu próprio.</p>
+            <p>No arquivo CSS inserir a tag &lt;link rel="shortcut icon" href="favicon.ico" type="image/x-icon"&gt; e inserir o seu ícone no "href"
+            </p>
+        <h2>Mudança de tamanho de imagem</h2>
+        <p>Para mudar o taman ho da imagem você precisa ter 3 imagens iguais com tamanhos diferentes. Você pode alterar o tamanho da imagem redimensionando ela pelo GIMP<br>
+        Após isso é só configurar com a tag "picture" para quando a página ficar no tamanho limite da imagem ela trocar para a imagem menor e assim por diante.</p>
+            <h4> exemplo:</h4>
+            <picture>
+                <source media="(max-width: 750px)" srcset="../mídia/one-piece/one-piece-grande.png">
+                <source media="(max-width: 1000px)" srcset="../mídia/one-piece/one-piece-medio.png">
+                <source media="(max-width: 1250px)" srcset="../mídia/one-piece/one-piece-cortado.png">
+                <img src="../mídia/one-piece/one-piece-cortado-2.png" alt="Imagem one-piece">
+            </picture>
+    
+    <h1>Carregando áudios em seu Site</h1>
+
+        
+            
+
+
+</body>
+</html>

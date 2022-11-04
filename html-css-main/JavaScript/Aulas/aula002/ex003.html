@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 3 Js</title>
+    <style>
+        body{
+            color: white;
+            background-color: rgb(0, 153, 255);
+            font: normal 20px Arial ;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Olá Mundo!</h1>
+        <p>Começando a primeira aula de JavaScript</p>
+        <script>
+            //window.alert('Minha Primeira mensagem!')
+            //window.confirm('está gostando de JavaScript?')
+            var nome = window.prompt('Qual seu nome?')
+            window.alert('olá ' + nome +'!!')
+
+            var n1 = Number(window.prompt('Digite um número:'))
+           var n2 = Number(window.prompt('digite outro número:'))
+            //var n3 = Number.ParseInt(window.prompt('Digite só mais um número'))
+            var s  = n1 + n2
+           document.write(`Então ${nome}, a soma dos numeros ${n1} e ${n2} é: ${s} </br>`)//.toFixed(2).replace('.', ',') para trocar de ponto para vírgula
+
+        </script>
+    </main>
+</body>
+</html> 

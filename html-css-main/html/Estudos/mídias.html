@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+body{
+    font: normal normal 16px arial}
+
+    </style>
+    <title>mídias</title>
+</head>
+<body>
+    <h1>Carregando outras mídias no seu site</h1>
+    <h2>Audios</h2>
+        <p>você consegue carregar outras mídias no seu site utilizando a tag "audio" com preload="metadata" Para pooder colocar outros formatos além do MP3 para rodar no site.
+        <p>Para dar play no áudio vc vai utilizar as tags "controls" e "autoplay"</p>
+        <h4>Exemplo:</h4>
+        <audio preload="metadata" controls autoplay>
+            <source src="../mídia/RQ-calcados/músicas/dance.mp3" type="audio/mp3"> 
+        </audio>
+
+        <p style="color:blueviolet"> &lt;audio preload="metadata" controls autoplay&gt; <br>
+            &lt;source src="../mídia/RQ-calcados/músicas/dance.mp3" type="audio/mp3"&gt;<br>
+            &lt;/audio&gt;</p>
+        
+        <h3>Observação</h3>
+        <p>se quiseer que o audio fique em looping, é só adicionar a tag "loop" ao lado da tag "autoplay"</p>
+        <h4>Exemplo:</h4>
+
+        <audio preload="metadata" controls autoplay loop>
+            <source src="../mídia/RQ-calcados/músicas/dance.mp3" type="audio/mp3"> 
+        </audio>
+
+        <p style="color:blueviolet"> &lt;audio preload="metadata" controls autoplay <a style="color:black; font-weight:bold">  loop</a>&gt; <br>
+            &lt;source src="../mídia/RQ-calcados/músicas/dance.mp3" type="audio/mp3"&gt;<br>
+            &lt;/audio&gt;</p>
+</body>
+</html>
