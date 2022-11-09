@@ -5,12 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo/estilo.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"><!-- css adicionado pelo google Fonts-->
     <title>Menu Responsivo</title>
 </head>
 <body>
     <header>
         <h1>Menu Responsivo</h1>
-        <menu>
+        <i id="burguer" class="material-icons" onclick="clickmenu()">menu</i> <!--Adicionando ícone pelo css do Google fonts-->
+        <menu id="itens">
             <ul>
                 <li><a href="@">Esportes</a>
                 <li><a href="@">Música</a>
@@ -20,14 +22,27 @@
             </ul>
         </menu>
     </header>
-    <Section>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, obcaecati quo? Animi veritatis porro esse adipisci fugiat culpa sequi deserunt voluptates dolorum, dolores optio ex neque natus, alias beatae nihil!</p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque, minima molestiae architecto praesentium odio, aut delectus animi autem voluptatum quia facilis corporis vel eveniet eum accusantium, necessitatibus ratione sit officiis.</p>
-    </Section>
+         <main>
+            <article>
+                <h2>Texto Sem Fins Educativos </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, obcaecati quo? Animi veritatis porro esse adipisci fugiat culpa sequi deserunt voluptates dolorum, dolores optio ex neque natus, alias beatae nihil!</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque, minima molestiae architecto praesentium odio, aut delectus animi autem voluptatum quia facilis corporis vel eveniet eum accusantium, necessitatibus ratione sit officiis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi quia ducimus esse iusto asperiores enim fugiat dolorem recusandae ipsum excepturi quos, pariatur, architecto veniam unde possimus mollitia praesentium voluptas temporibus! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat, aliquid! Ducimus maiores delectus error blanditiis vero culpa porro ad libero, consectetur magni temporibus officia exercitationem quidem illo nesciunt quasi earum.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa rerum et, illo esse maiores sequi eum explicabo itaque perspiciatis. Dolorem delectus ea provident ipsa veritatis distinctio esse, corrupti blanditiis possimus. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus excepturi vero placeat maiores voluptate sit aut impedit ut quod necessitatibus ipsum temporibus, veritatis id quisquam consectetur magnam quis assumenda inventore. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim, labore! Recusandae magni, fugit reprehenderit, provident nisi, ipsum reiciendis vero corrupti dolorem eaque dignissimos quas ut saepe sapiente ea obcaecati dolore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quidem reprehenderit sed libero accusantium ducimus ullam maiores aspernatur. Magni eos ducimus vitae est doloremque nobis placeat blanditiis molestiae eius exercitationem!
+                </p>
+            </article>
+        </main>
     <footer>
         <p>Desenvolvido por AQ_uario</p>
     </footer>
     <script>
+        function clickmenu(){
+            if(itens.style.display == 'block'){
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+            
+        }
 
     </script>
 </body>
