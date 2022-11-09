@@ -10,8 +10,8 @@
 
 <h2> Sites Respansivos </h2>
     <ul>
-        <li><a href= "https://alvaro-queiroz.github.io/html-css-main//html-css-main/html/teste.site/CafecomBiscoito/cafecombiscoito.html ">Site com uso de divs </a>
-        <li><a href= "https://alvaro-queiroz.github.io/html-css-main//html-css-main/html/teste.site/poema/poema.html "> Site com imagens congeladas na rolagem </a>
+        <li><a href= "https://alvaro-queiroz.github.io/html-css-main//html-css-main/html/teste.site/CafecomBiscoito/cafecombiscoito.html ">Café com Biscoito</a>
+        <li><a href= "https://alvaro-queiroz.github.io/html-css-main//html-css-main/html/teste.site/poema/poema.html "> Poema</a>
     </ul>
 <h2>Iframes</h2>
     <ul>
