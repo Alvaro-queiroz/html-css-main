@@ -1,34 +1,53 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="">
-    <title>Site</title>
-</head>
-<body>
-    <header>
-        <h1>Titulo</h1>
-        <menu>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-        </menu>
-    </header>
-    <main>
-        <article>
-            <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit atque voluptatum doloribus corrupti. Animi maiores ex, repellat rerum corporis qui deleniti perspiciatis, natus deserunt porro recusandae numquam, officiis commodi ducimus.
-            </p>
-                <iframe src="../formulário/formulário.html" frameborder="1" sandbox="allow-same-origin allow-forms allow-scripts" referrerpolicy="no-referrer"></iframe>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum iste error, consectetur ducimus expedita eaque architecto atque quaerat, provident, commodi voluptates aspernatur iure. Accusamus error explicabo facere porro earum laborum.
-            </p>
-    </article>
-</main>
-</body>
-</html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="estilo/Menu.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <title>Site</title>
+    </head>
+    <body>
+        <header>
+            <h1>Boletim</h1>
+            <i id="burguer" class="material-icons" onclick="clickmenu()">menu</i>
+            <menu  id="itens">
+                <ul>
+                    <li><a href= "https://alvaro-queiroz.github.io/html-css-main/html-css-main/html/teste.site/mediaQuerys/ex001/estilo/Menuresp.html" target="_blank" rel="external"> Site Media Querys e Js</a>
+                    <li><a href= "https://alvaro-queiroz.github.io/html-css-main//html-css-main/html/teste.site/mediaQuerys/ex003/MF.html" target="_blank" rel="external"> site Respansivo </a>
+                    <li><a href= "https://alvaro-queiroz.github.io/html-css-main//html-css-main/html/teste.site/app-portifolio/teste-3.html " target="_blank" rel="external"> site app</a>
+                </ul>
+            </menu>
+        </header>
+        <main>
+            <article>
+                <h1> A Nota Media</h1>
+                <p>
+                    Adicione a soma das notas das matérias de Exatas e das matérias de humanas, Para dar a nota final e saber se o aluno passou de ano ou foi reprovado
+                </p>
+
+                <div id="form" >
+                    <iframe src="../formulário/formulário.html" frameborder="1" sandbox="allow-same-origin allow-forms allow-scripts" referrerpolicy="no-referrer" ></iframe>
+                </div>
+
+                <p>
+                    Geralmente o aluno está Aprovado se ele tiver no mínimo 10 na média total 
+                </p>
+        </article>
+        </main>
+        <footer>
+            Desenvolvido por AQ_uario
+        </footer>
+        <script>
+            function clickmenu(){
+                if(itens.style.display == 'block'){
+                    itens.style.display = 'none'
+                } else {
+                    itens.style.display = 'block' 
+                }
+            }
+
+        </script>
+    </body>
+    </html>
