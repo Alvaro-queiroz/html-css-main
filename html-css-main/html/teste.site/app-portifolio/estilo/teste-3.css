@@ -12,7 +12,7 @@ html,body{
     background-color: black;
 }
 body{
-    background: url("../html/mídia/app-portifolio/fundo-madeira.jpg") no-repeat top center;
+    background: url("../app-portifolio/fundo-madeira.jpg") no-repeat top center;
     background-size: cover;
     background-attachment:fixed ;
 }
@@ -40,7 +40,7 @@ section#celular{
     transform: translate(-50%, -50%);
     height: 600px;
     width:299px; 
-    background-image: url("../html/mídia/app-portifolio/celular.png");
+    background-image: url("../app-portifolio/celular.png");
 }
 a{text-decoration: none;}
 
