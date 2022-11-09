@@ -35,14 +35,11 @@ span#burguer{
 span#burguer:hover{
     
     background-color: lightcoral;
-    }
+}
 menu{
-    display: none;
+    display: block;
 }
-menu > ul{
-    list-style-type: none;
-    padding: 10px;
-}
+
 menu > ul > li > a{
     display: block;
     padding: 10px;
