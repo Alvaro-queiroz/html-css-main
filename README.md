@@ -23,8 +23,8 @@
 <h2> Formulários </h2>
     <ul>
         <li><a href= "https://alvaro-queiroz.github.io/html-css-main/html-css-main/html/teste.site/formulário/checkbox.html"> Formulario checkbox</a>
-        <li><a href= "https://alvaro-queiroz.github.io/html-css-main/html-css-main/html/teste.site/formulário/formulário-2.html"> Formulario para nome </a>
-        <li><a href= "https://alvaro-queiroz.github.io/html-css-main/html-css-main/html/teste.site/formulário/formulário.html"> Formulario para soma </a>
+        <li><a href= "https://alvaro-queiroz.github.io/html-css-main/html-css-main/html/teste.site/formulário/formulário-2.html"> Formulário para nome </a>
+        <li><a href= "https://alvaro-queiroz.github.io/html-css-main/html-css-main/html/teste.site/formulário/formulário.html"> Formulário para soma de notas </a>
         <li><a href= "https://alvaro-queiroz.github.io/html-css-main/html-css-main/html/teste.site/formulário/login.html"> Formulario para login</a>
     </ul>
 
