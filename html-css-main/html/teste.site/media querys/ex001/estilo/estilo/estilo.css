@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+*{
+    margin:0px;
+    padding: 0px;
+}
+body{
+    font: normal normal 15pt Arial;
+    background-color: lightgrey;
+}
+header{
+    background-color: green;
+    color:white;
+    text-align: center;
+}
+menu > ul{
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    line-height: 30px;
+    background-color: greenyellow;
+    list-style-type: none;
+    
+}
+
+a{
+    
+    text-decoration: none;
+    color:green;
+}   
+
+section{
+    padding: 10px;
+    margin: auto;
+    line-height: 30px;
+    background-color: white;
+}
+footer{
+    background-color: greenyellow;
+}
