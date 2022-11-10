@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo/estilo.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"><!-- css adicionado pelo google Fonts-->
+    <link rel="stylesheet" href="estilo/estilocheio.css">
     <title>Menu Responsivo</title>
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>Menu Responsivo</h1>
         <i id="burguer" class="material-icons" onclick="clickmenu()">menu</i> <!--Adicionando ícone pelo css do Google fonts-->
@@ -35,6 +36,13 @@
         <p>Desenvolvido por AQ_uario</p>
     </footer>
     <script>
+        function mudouTamanho(){
+            if (window.innerWidth >= 992){
+                itens.style.display = 'block'
+            }else {
+                itens.style.display = 'none'
+            }
+        }
         function clickmenu(){
             if(itens.style.display == 'block'){
                 itens.style.display = 'none'
@@ -43,6 +51,7 @@
             }
             
         }
+        
 
     </script>
 </body>
