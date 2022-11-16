@@ -79,7 +79,7 @@ div.campo > i {
 }
 div.campo > input{
     background-color:#A4A591;
-    font-size: 1em;
+    font-size: 1.01em;
     width: calc(100% - 45px);
     height: 40px;
     border: none;
@@ -107,7 +107,7 @@ form > div.campo{
 
 form > input[type=submit]{
     display: block;
-    font-size: 1em;
+    font-size:1em;
     width: 100%;
     height: 40px;
     background-color:#D2AB99 ;
