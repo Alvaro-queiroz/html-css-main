@@ -38,11 +38,14 @@ section#login{
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.13);
+
+    transition: width 0.5s, heigth 0.5s;
+    transition-timing-function: ease;
 }
 
 section#login > div#foto {
     display: block;
-    background:#D2AB99  url(../estilo/foto.png) no-repeat;
+    background:#D2AB99  url(../estilo/foto.jpg) no-repeat;
     height: 200px;
     background-size: cover; 
     background-position: center;  
