@@ -71,43 +71,36 @@ div#formulario > p{
 }
 
 div.campo > i {
-    font-size:2em;
+    font-size: 2em;
     width: 40px;
-    color: white;
+    color:white;
     padding: 6px;
+    padding-right: 6px;
     
 }
-div.campo > input{
-    background-color:#A4A591;
-    font-size: 1.02em;
-    width: calc(100% - 45px);
-    height: 40px;
-    border: none;
-    border-radius: 10px;
-    color: white;
-    padding-left: 10px;
-    border: 2px solid #56876D;
-    transform: translateY(-12px);
-}
-
 form > div.campo{
-    display: block;
-    position:relative;
     background-color:#56876D;
     display: block;
     width: 100%;
     height: 40px;
     border-radius: 10px;
     margin: 5px 0px;
-    
-    
 
 }
 
-
+div.campo > input{
+    background-color:#A4A591;
+    font-size: 1.07em;
+    width: calc(100% - 45px);
+    height: 100%;
+    border: 2px solid #56876D;;
+    border-radius: 10px;
+    color: white;
+    transform: translateY(-11px);
+}
 form > input[type=submit]{
     display: block;
-    font-size:1em;
+    font-size: 1em;
     width: 100%;
     height: 40px;
     background-color:#D2AB99 ;
