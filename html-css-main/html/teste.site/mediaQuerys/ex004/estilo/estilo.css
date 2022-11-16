@@ -79,6 +79,8 @@ div.campo > i {
     
 }
 form > div.campo{
+    display: block;
+    position:relative;
     background-color:#56876D;
     display: block;
     width: 100%;
@@ -89,6 +91,7 @@ form > div.campo{
 }
 
 div.campo > input{
+   
     background-color:#A4A591;
     font-size: 1em;
     width: calc(100% - 45px);
