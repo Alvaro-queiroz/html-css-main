@@ -75,7 +75,6 @@ div.campo > i {
     width: 40px;
     color: white;
     padding: 6px;
-    padding-right: 6px;
     
 }
 form > div.campo{
@@ -99,7 +98,7 @@ div.campo > input{
     border: 2px solid #56876D;;
     border-radius: 10px;
     color: white;
-    transform: translateY(-11px);
+    transform: translateY(-12px);
 }
 form > input[type=submit]{
     display: block;
