@@ -95,7 +95,7 @@ div.campo > input{
     border: 2px solid #56876D;;
     border-radius: 10px;
     color: white;
-    transform: translateY(-13px);
+    transform: translateY(-12.8px);
     padding-left: 10px;
 }
 form > input[type=submit]{
